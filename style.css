@@ -162,10 +162,10 @@ a:hover {
 
 }
 
-.card.facebook:hover {
+.card.oui:hover {
     background-color: #4267b2;
 }
 
-.card.youtube:hover {
+.card.non:hover {
     background-color: #ff074f;
 }
