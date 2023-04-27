@@ -18,6 +18,16 @@ header {
     background-color: #08AAE1;
 }
 
+.photo {
+    width: 10%;
+    height: 100%;
+    margin-left: 5%;
+    background-image: url(image/user.png);
+    background-size: cover;
+    clip-path: circle(50% at 50% 50%);
+
+}
+
 header nav a {
     object-fit: cover;
     margin-left: 5%;
@@ -334,6 +344,7 @@ a:hover {
     max-width: 960px;
     margin: 0 auto;
     background-color: dimgray;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
 }
 
 .timeline::after {
