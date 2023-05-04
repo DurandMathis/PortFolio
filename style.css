@@ -18,16 +18,6 @@ header {
     background-color: #08AAE1;
 }
 
-.photo {
-    width: 10%;
-    height: 100%;
-    margin-left: 5%;
-    background-image: url(image/user.png);
-    background-size: cover;
-    clip-path: circle(50% at 50% 50%);
-
-}
-
 header nav a {
     object-fit: cover;
     margin-left: 5%;
