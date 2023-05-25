@@ -162,12 +162,12 @@ a:hover {
 
 }
 
-.card.oui:hover {
-    background-color: #4267b2;
+.card.bash:hover {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
 }
 
-.card.non:hover {
-    background-color: #ff074f;
+.card.web:hover {
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
 }
 
 .contact-box {
