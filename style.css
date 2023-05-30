@@ -177,9 +177,9 @@ a:hover {
     width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
 }
 
@@ -217,8 +217,8 @@ a:hover {
     transition: .5s;
 }
 
-.contact-box .user-box input:focus ~ label,
-.contact-box .user-box input:valid ~ label {
+.contact-box .user-box input:focus~label,
+.contact-box .user-box input:valid~label {
     top: -20px;
     left: 0;
     color: #03e9f4;
@@ -244,9 +244,9 @@ a:hover {
     color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 100px #03e9f4;
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
 }
 
 .contact-box a span {
@@ -267,7 +267,9 @@ a:hover {
     0% {
         left: -100%;
     }
-    50%,100% {
+
+    50%,
+    100% {
         left: 100%;
     }
 }
@@ -286,7 +288,9 @@ a:hover {
     0% {
         top: -100%;
     }
-    50%,100% {
+
+    50%,
+    100% {
         top: 100%;
     }
 }
@@ -305,7 +309,9 @@ a:hover {
     0% {
         right: -100%;
     }
-    50%,100% {
+
+    50%,
+    100% {
         right: 100%;
     }
 }
@@ -324,7 +330,9 @@ a:hover {
     0% {
         bottom: -100%;
     }
-    50%,100% {
+
+    50%,
+    100% {
         bottom: 100%;
     }
 }
@@ -333,8 +341,8 @@ a:hover {
     position: relative;
     max-width: 960px;
     margin: 0 auto;
-    background-color: dimgray;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    background-color: lightgray;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
 }
 
 .timeline::after {
@@ -411,6 +419,11 @@ a:hover {
     background-color: white;
     position: relative;
     border-radius: 8px;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 600px) {
